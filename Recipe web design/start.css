@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredoka:wght@600&family=Signika+Negative:wght@400;700&family=Source+Code+Pro:wght@200;300;400;500&display=swap');
+.sty{
+    font-family: "Dancing Script", cursive;
+    font-size: 2.2rem;
+    color: aliceblue;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.sty:hover{
+    color: rgb(255, 228, 153);
+}
+.container1{
+    padding: 10px;
+}
+ 
+.styl:hover{
+    text-decoration: underline;
+}
+#pic1{
+    background-image: url(./images/Screenshot\ 2024-04-20\ 134448.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+        left: 100px;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 14px;
+    padding-left: 60px;;
+}
+.gradient-background{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+ 
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ 
+  .gradient{
+    background: linear-gradient(300deg, #8de2ef, #ff4c68, #78c8e0);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+ 
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .but{
+    background-color: aliceblue;
+  }
+@media only screen and (max-width: 600px) {
+    h2{
+        padding-left: 100px;
+    }
+    .pic{
+      padding-left:80px;
+    }
+    .hel{
+        margin-left: 100px;
+    }
+    /* #pic1{
+        width:50vw;
+        height: 50vh;
+    } */
+    .ad{
+       padding-left: 30px;
+       left: 80px;
+        width: 50%;
+        height: 50%;
+      }
+      #pic1{
+        width: 350px;
+        height: 350px;
+       margin-left: 60px;
+        background-image: url(./images/Screenshot\ 2024-04-20\ 134448.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    #pic{
+        width: 350px;
+        height: 350px;
+        left: 100px;
+        background-image: url(./images/pizza-Photoroom\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation: imgRot 50s linear infinite;
+    }
+    @keyframes imgRot {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    
+  }
+  .con{
+    padding-bottom: 50px;;
+  }
+  @media only screen and (min-width: 802px) {
+    .hero{
+        display: flex;
+
+    }
+   
+    h2{
+        padding-left: 260px;
+    }
+    .pic{
+        padding-right: 10px;
+    }
+    .container1{
+        display: flex;
+        padding: 15px;
+        justify-content: space-between;
+      }
+    .ad{
+        padding-left: 150px;
+        width: 70%;
+        height: 70%;
+      }
+      #pic1{
+        margin-left: 210px;
+        width: 700px;
+        height: 700px;
+        margin-top: 100px;
+        background-image: url(./images/Screenshot\ 2024-04-20\ 134448.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    #pic{
+        width: 400px;
+        height: 400px;
+        padding-left: 20px;;
+        background-image: url(./images/pizza-Photoroom\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation: imgRot 50s linear infinite;
+    }
+    @keyframes imgRot {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+  }
+  
+  
